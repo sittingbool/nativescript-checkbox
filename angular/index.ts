@@ -1,7 +1,7 @@
 import { Directive, ElementRef, HostListener, Inject, NgModule, forwardRef } from "@angular/core";
 import { FormsModule, NG_VALUE_ACCESSOR } from "@angular/forms";
 import { registerElement } from "nativescript-angular/element-registry";
-import { BaseValueAccessor } from "nativescript-angular/value-accessors/base-value-accessor";
+import { BaseValueAccessor } from "nativescript-angular/forms/value-accessors/base-value-accessor";
 import { convertToInt } from "nativescript-angular/common/utils";
 import { View } from "tns-core-modules/ui/core/view";
 
